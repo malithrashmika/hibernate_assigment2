@@ -1,7 +1,7 @@
-package lk.ijse;
+package lk.Ijse;
 
-import lk.ijse.Entity.Student;
-import lk.ijse.confit.FactoryConfiguration;
+import lk.Ijse.Entity.Student;
+import lk.Ijse.config.FactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

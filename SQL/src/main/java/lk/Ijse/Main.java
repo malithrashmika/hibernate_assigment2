@@ -1,15 +1,10 @@
-package lk.ijse;
+package lk.Ijse;
 
-import lk.ijse.Entity.Laptop;
-import lk.ijse.Entity.Student;
-import lk.ijse.confit.FactoryConfiguration;
+import lk.Ijse.Entity.Student;
+import lk.Ijse.config.FactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.NativeQuery;
-import org.hibernate.query.Query;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -69,7 +64,7 @@ public class Main {
       /*  query4.executeUpdate();*/
 
         /*-------------------------------------Search by id-----------------------------------------------------*/
-        NativeQuery<?> query5 = session.createNativeQuery("select * from student where StuID=?1" ,Student.class);
+        NativeQuery<?> query5 = session.createNativeQuery("select * from student where StuID=?1" , Student.class);
         query5.setParameter(1, 1);
         Student studentSearchById = (Student) query5.uniqueResult();
 

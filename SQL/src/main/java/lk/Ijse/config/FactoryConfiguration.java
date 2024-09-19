@@ -1,10 +1,8 @@
-package lk.ijse.confit;
+package lk.Ijse.config;
 
 
-
-import lk.ijse.Entity.Address;
-import lk.ijse.Entity.Laptop;
-import lk.ijse.Entity.Student;
+import lk.Ijse.Entity.Laptop;
+import lk.Ijse.Entity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

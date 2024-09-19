@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HQL.iml" filepath="$PROJECT_DIR$/HQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQL.iml" filepath="$PROJECT_DIR$/SQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/hibernate-Assigment.iml" filepath="$PROJECT_DIR$/hibernate-Assigment.iml" />
     </modules>
   </component>

@@ -1,4 +1,4 @@
-package lk.ijse.Entity;
+package lk.Ijse.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
